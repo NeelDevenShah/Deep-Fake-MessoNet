@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
-
+# Most important to be changed according to the space we are working
+import sys
+sys.path.append("/home/neel/Desktop/Models_swaroop/github/MesoNet/")
 from tensorflow.keras.models import Model as KerasModel
 from tensorflow.keras.layers import Input, Dense, Flatten, Conv2D, MaxPooling2D, BatchNormalization, Dropout, Reshape, Concatenate, LeakyReLU
 from tensorflow.keras.optimizers import Adam
